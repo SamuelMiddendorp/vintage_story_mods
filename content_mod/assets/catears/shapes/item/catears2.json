@@ -1,0 +1,32 @@
+{
+	"editor": {
+		"backDropShape": "C:/Users/samue/AppData/Roaming/Vintagestory/assets/game/shapes/entity/humanoid/seraph-hairless",
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+	},
+	"textures": {
+		"chain": "C:/Users/samue/AppData/Roaming/Vintagestory/assets/survival/textures/item/armor/chain",
+		"cranberry": "C:/Users/samue/AppData/Roaming/Vintagestory/assets/survival/textures/item/food/fruit/cranberry"
+	},
+	"elements": [
+		{
+			"name": "Cube2",
+			"stepParentName": "Head",
+			"from": [ 0.0, 1.0, -10.0 ],
+			"to": [ 3.0, 4.0, -3.0 ],
+			"renderPass": 0,
+			"rotationOrigin": [ 0.0, 1.0, -10.0 ],
+			"faces": {
+				"north": { "texture": "#chain", "uv": [ 6.0, 7.0, 9.0, 10.0 ], "windMode": [-1,-1,-1,-1] },
+				"east": { "texture": "#chain", "uv": [ 4.0, 6.0, 11.0, 9.0 ] },
+				"south": { "texture": "#chain", "uv": [ 7.0, 7.5, 10.0, 10.5 ] },
+				"west": { "texture": "#chain", "uv": [ 4.5, 6.5, 11.5, 9.5 ] },
+				"up": { "texture": "#chain", "uv": [ 7.0, 5.5, 10.0, 12.5 ], "windMode": [-1,-1,-1,-1] },
+				"down": { "texture": "#cranberry", "uv": [ 10.0, 8.0, 13.0, 15.0 ], "windMode": [-1,-1,-1,-1] }
+			}
+		}
+	]}

@@ -1,0 +1,50 @@
+{
+	"editor": {
+		"backDropShape": "entity/humanoid/seraph-hairless",
+		"allAngles": true,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+		"brown": [16,16]
+	},
+	"textures": {
+		"brown": "game:item/armor/cloth/brown",
+		"seraph": "game:block/transparent"
+	},
+	"elements": [
+		{
+			"name": "Ear",
+			"stepParentName": "Head",
+			"from": [ 0.0, 4.0, 0.0 ],
+			"to": [ 1.0, 7.0, 2.0 ],
+			"rotationOrigin": [ 0.0, 4.0, 2.0 ],
+			"rotationX": -20.0,
+			"faces": {
+				"north": { "texture": "#brown", "uv": [ 7.5, 5.0, 8.5, 8.0 ], "windMode": [-1,-1,-1,-1] },
+				"east": { "texture": "#brown", "uv": [ 10.0, 3.5, 12.0, 6.5 ] },
+				"south": { "texture": "#brown", "uv": [ 10.0, 2.0, 11.0, 5.0 ] },
+				"west": { "texture": "#brown", "uv": [ 8.0, 2.0, 10.0, 5.0 ] },
+				"up": { "texture": "#brown", "uv": [ 8.0, 1.0, 10.0, 2.0 ], "rotation": 90 },
+				"down": { "texture": "#brown", "uv": [ 8.0, 5.0, 10.0, 6.0 ], "rotation": 90 }
+			},
+			"children": [
+				{
+					"name": "Ear2",
+					"from": [ 0.0, -0.342, 2.9397 ],
+					"to": [ 1.0, 2.658, 4.9397 ],
+					"rotationOrigin": [ 0.0, -0.342, 2.9397 ],
+					"rotationX": 40.0,
+					"faces": {
+						"north": { "texture": "#brown", "uv": [ 10.0, 8.5, 11.0, 11.5 ] },
+						"east": { "texture": "#brown", "uv": [ 11.0, 8.5, 13.0, 11.5 ] },
+						"south": { "texture": "#brown", "uv": [ 13.0, 8.5, 14.0, 11.5 ] },
+						"west": { "texture": "#brown", "uv": [ 14.0, 8.5, 16.0, 11.5 ] },
+						"up": { "texture": "#brown", "uv": [ 10.0, 6.5, 11.0, 8.5 ] },
+						"down": { "texture": "#brown", "uv": [ 11.0, 6.5, 12.0, 8.5 ] }
+					}
+				}
+			]
+		}
+	]}

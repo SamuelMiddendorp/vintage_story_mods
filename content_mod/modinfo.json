@@ -1,0 +1,10 @@
+{
+  "type": "content",
+  "modid": "catears",
+  "name": "Cat ears",
+  "authors": [
+    "Samuel Middendorp"
+  ],
+  "description": "A mod that adds craftable cat ears to vintage story",
+  "version": "1.0.0"
+}
