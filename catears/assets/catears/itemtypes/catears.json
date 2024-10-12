@@ -15,6 +15,11 @@
   "shape": {
     "base": "item/catears"
   },
+
+  "textures": {
+    "seraph": { "base": "game:block/transparent" }
+  },
+
   "storageFlags": 128,
 	"attributes": {
 		"clothescategory": "head",
